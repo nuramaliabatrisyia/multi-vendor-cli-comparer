@@ -1,0 +1,20 @@
+{
+    "Show Interface Summary": {
+        "Cisco": "show ip interface brief",
+        "Fortinet": "get system interface",
+        "Palo Alto": "show interface all",
+        "Juniper": "show interfaces terse"
+    },
+    "Check Routing Table": {
+        "Cisco": "show ip route",
+        "Fortinet": "get router info routing-table all",
+        "Palo Alto": "show routing route",
+        "Juniper": "show route"
+    },
+    "Display ARP Table": {
+        "Cisco": "show ip arp",
+        "Fortinet": "get system arp",
+        "Palo Alto": "show arp all",
+        "Juniper": "show arp"
+    }
+}
