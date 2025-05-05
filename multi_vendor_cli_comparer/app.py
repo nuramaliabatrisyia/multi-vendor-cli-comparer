@@ -3,7 +3,7 @@ import json
 from rapidfuzz import process
 
 # Load command mappings
-with open("commands.json", "r") as file:
+with open("multi_vendor_cli_comparer/commands.json", "r") as file:
     command_map = json.load(file)
 
 st.set_page_config(page_title="Multi-Vendor CLI Reference", layout="centered")
